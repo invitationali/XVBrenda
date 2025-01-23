@@ -1,0 +1,174 @@
+html, body {
+    background-color: #1e0429;
+    color: #d4d3d8;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:link, a:visited {
+    text-decoration:none;
+    color: floralwhite;
+}
+
+.xv {
+    height: 100%;
+    background: linear-gradient(to right, rgba(122, 1, 92, 0.623),rgba(35, 0, 51, 0.8)),url(banner/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(5, 0, 36);
+}
+
+.xv-span {
+    color: #d4d3d8;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 2500%;
+    text-align: center;
+    text-transform: uppercase;
+    background-size: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.floating {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: 60px;
+    right: 60px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.fab-icon {
+    font-size: 48px;
+    margin-top: 16px;
+}
+
+
+#demo {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .floating {
+        width: 50px;
+        height: 50px;
+        bottom: 30px;
+        right: 30px;        
+    }
+    .fab-icon {
+        font-size: 32px;
+        margin-top: 8px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 2rem;
+    }
+    .xv-span{
+        font-size: 1500%;
+    }
+    #demo {
+        font-size: 24px;
+    }
+    .footer-content {
+        margin: 32px 0 32px 0;
+        flex-direction: column !important;
+    }
+}
+
+
+
+.seccion-contador {
+    background: linear-gradient(to right, rgba(68, 0, 48, 0.377),rgba(71, 0, 41, 0.363)),url(banner/flowersback2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.seccion-dresscode {
+    background: linear-gradient(to right, rgba(67, 0, 73, 0.705),rgba(52, 0, 53, 0.795)),url(banner/flowersback2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.seccion-música {
+    background: linear-gradient(to right, rgba(67, 0, 73, 0.705),rgba(52, 0, 53, 0.795)),url(banner/flowersback2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.seccion-mapa {
+    background: linear-gradient(to right, rgba(68, 0, 48, 0.377),rgba(71, 0, 41, 0.363)),url(banner/flowersback2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.seccion-carrusel {
+    background: linear-gradient(to right, rgba(68, 0, 48, 0.377),rgba(71, 0, 41, 0.363)),url(banner/flowersback2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.seccion-confirmar {
+    background: linear-gradient(to right, rgba(68, 0, 48, 0.377),rgba(71, 0, 41, 0.363)),url(banner/flowersback2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container-1 {
+    background: linear-gradient((to right, rgba(67, 0, 73, 0.705),rgba(52, 0, 53, 0.795)),url(banner/flowersback2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+  }
